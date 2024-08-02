@@ -42,11 +42,11 @@ See the [**talks**][talks] we've given at Cloud Foundry Summits and meetups.
   top notch GitLab deployment, ready to scale horizontally, properly
   leveraging a cluster of Praefect proxy in front of a Gitaly cluster, and
   using the efficient and scalable stateless Golang-based SSH proxy.
-- ([**Turbine**][turbine_cli]), a framework that helps structuring coordinated
-  and modularized Bosh deployments, for managing a Cloud Foundry or Concourse
-  platform.
-- [**Concourse** Turbine][concourse_turbine], a Turbine project for deploying
-  a top notch Concourse cluster, with full encryption.
+- [**Turbine** Framework][turbine_cli], structuring coordinated and
+  modularized Bosh deployments, useful for managing Kubernetes, Cloud Foundry
+  and Concourse platforms.
+- [**Concourse** Turbine][concourse_turbine], a project leveraging the Turbine
+  Framework for deploying a top notch Concourse cluster, with full encryption.
 
 [kubeadm_boshrelease]: https://github.com/gstackio/kubeadm-boshrelease
 [gk_gitlab_boshrelease]: https://github.com/gstackio/gk-gitlab-boshrelease
