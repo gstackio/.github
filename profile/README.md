@@ -8,16 +8,15 @@ deployments.
 
 ### Cloud-Native expertise
 
-- Cloud-native platforms: [Kubernetes][k8s] & [Cloud Foundry][cf].
-- CI/CD: ✈️ [Concourse][concourse], [GitLab][gitlab], [GitHub Actions][gh_actions],
-  🗡️ [Dagger][dagger].
-- Cross-Cloud automation: [Bosh][bosh].
+- Ecosystem & platforms: [Kubernetes][k8s] & [Cloud Foundry][cf].
+- CI/CD: ✈️ [Concourse][concourse], [GitLab][gitlab], GitHub Actions, Dagger.
+- Cross-Cloud automation: [Bosh][bosh], Crossplane, Terraform, Ansible.
 
 We contribute to Bosh souce code and documentation, being active member of the
-[Foundational Infrastructure WG][fiwg], a [working groups][fiwg] of the Cloud
-Foundry foundation.
+[“Foundational Infrastructure” WG][fiwg], a [working groups][fiwg] within the
+Cloud Foundry foundation.
 
-See the [talks][talks] we've given at CF Summits and meetups.
+See the [**talks**][talks] we've given at Cloud Foundry Summits and meetups.
 
 [k8s]: https://kubernetes.io
 [cf]: https://www.cloudfoundry.org
