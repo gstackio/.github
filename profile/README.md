@@ -6,7 +6,7 @@ offering training and expertise in Kubernetes, helping teams with the most
 effective ways of working to ensure highly robust, testable and reproducible
 deployments.
 
-Several Cloud-Native techs we have specific expertise in:
+### Cloud-Native expertise
 
 - Cloud-native platforms: [Kubernetes][k8s] & [Cloud Foundry][cf].
 - CI/CD: ✈️ [Concourse][concourse], [GitLab][gitlab], [GitHub Actions][gh_actions],
@@ -32,7 +32,7 @@ See the [talks][talks] we've given at CF Summits and meetups.
 
 [talks]: https://github.com/gstackio/.github/blob/main/TALKS.md
 
-Go checkout some of our hottest projects:
+### Hottest projects
 
 - [**Kubeadm** Bosh release][kubeadm_boshrelease] (yet private, contact us), a
   scalable Kubernetes bosh release with all Day-2 operations automatized:
@@ -43,11 +43,19 @@ Go checkout some of our hottest projects:
   top notch GitLab deployment, ready to scale horizontally, properly
   leveraging a cluster of Praefect proxy in front of a Gitaly cluster, and
   using the efficient and scalable stateless Golang-based SSH proxy.
-- **Turbine** ([CLI][turbine_cli]), a framework that helps structuring
-  coordinated and modularized Bosh deployments, for managing a Cloud Foundry
-  or Concourse platform.
-- [Concourse Turbine][concourse_turbine], a Turbine project for deploying a
-  top notch Concourse cluster, with full encryption.
+- ([**Turbine**][turbine_cli]), a framework that helps structuring coordinated
+  and modularized Bosh deployments, for managing a Cloud Foundry or Concourse
+  platform.
+- [**Concourse** Turbine][concourse_turbine], a Turbine project for deploying
+  a top notch Concourse cluster, with full encryption.
+
+[kubeadm_boshrelease]: https://github.com/gstackio/kubeadm-boshrelease
+[gk_gitlab_boshrelease]: https://github.com/gstackio/gk-gitlab-boshrelease
+[turbine_cli]: https://github.com/gstackio/turbine-cli
+[concourse_turbine]: https://github.com/gstackio/concourse-turbine
+
+<details>
+<summary>Maintained projects</summary>
 
 Maintained Bosh Releases:
 
@@ -61,6 +69,11 @@ Maintained Bosh Releases:
   deploying and managing cluster of Kong API Gateway instance, also providing
   an deployment for the Konga web UI.
 
+[k8s_boshrelease]: https://github.com/gstackio/k8s-boshrelease
+[traefik_boshrelease]: https://github.com/gstackio/traefik-boshrelease
+[gk_consul_boshrelease]: https://github.com/gstackio/gk-consul-boshrelease
+[gk_kong_boshrelease]: https://github.com/gstackio/gk-kong-boshrelease
+
 Maintaned Concourse resources:
 
 - [cf-community/github-pr-resource](https://github.com/cloudfoundry-community/github-pr-resource)
@@ -73,11 +86,4 @@ Maintained Concourse pipeline templates:
 
 - https://github.com/gstackio/pipeline-templates, now moved to CF community
 
-[kubeadm_boshrelease]: https://github.com/gstackio/kubeadm-boshrelease
-[gk_gitlab_boshrelease]: https://github.com/gstackio/gk-gitlab-boshrelease
-[turbine_cli]: https://github.com/gstackio/turbine-cli
-[concourse_turbine]: https://github.com/gstackio/concourse-turbine
-[k8s_boshrelease]: https://github.com/gstackio/k8s-boshrelease
-[traefik_boshrelease]: https://github.com/gstackio/traefik-boshrelease
-[gk_consul_boshrelease]: https://github.com/gstackio/gk-consul-boshrelease
-[gk_kong_boshrelease]: https://github.com/gstackio/gk-kong-boshrelease
+</details>
