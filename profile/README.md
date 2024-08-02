@@ -1,8 +1,10 @@
 **Gstack** is a French consultancy, offering Cloud-Native delivery, enablement
-and training to global coroporates. We pair-program with our customer's
-engineers over a number of months, offering training and expertise in
-Kubernetes, helping teams with the most effective ways of working to ensure
-highly robust, testable and reproducible deployments.
+and training to global coroporates.
+
+We pair-program with our customer's engineers over a number of months,
+offering training and expertise in Kubernetes, helping teams with the most
+effective ways of working to ensure highly robust, testable and reproducible
+deployments.
 
 Several Cloud-Native techs we have specific expertise in:
 
